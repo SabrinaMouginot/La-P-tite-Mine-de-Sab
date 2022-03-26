@@ -11,6 +11,7 @@ body {
   padding: 0;
   margin: 0; /**Pour retirer les marges au départ : margin et padding à 0**/
   /**La bibliothèque Google Fonts nous propose toutes les polices de Google.**/
+
 }
 
 ul {
@@ -55,6 +56,7 @@ header {
   display: block;
   text-align: center; /**Chaque élément sera centré.**/
   padding: 18px 16px;
+  margin: 0;
 }
 #logo {
   /**# pour atteindre le logo de la même manière qu'on fait id dans HTML**/
