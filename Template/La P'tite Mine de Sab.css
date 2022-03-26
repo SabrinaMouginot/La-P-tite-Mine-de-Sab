@@ -432,9 +432,9 @@ h3 {
 #videos {
   height: 1400px;
   background-color: #fffbef;
-  padding: 400px;
+  padding: 300px 400px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 5px;
   /* margin: 15px -150px; */
 }
 #videos h2 {
@@ -462,6 +462,7 @@ h3 {
   padding: 50px 5px;
   height: 280px;
   width: 400px;
+  margin-bottom: 10px;
   float: left;
   position: relative;
   z-index: 10; /**les p ont un z-index plus élevé, alors ils passeront devant les images**/
