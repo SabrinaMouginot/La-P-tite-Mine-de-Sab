@@ -11,7 +11,6 @@ body {
   padding: 0;
   margin: 0; /**Pour retirer les marges au départ : margin et padding à 0**/
   /**La bibliothèque Google Fonts nous propose toutes les polices de Google.**/
-
 }
 
 ul {
@@ -44,7 +43,7 @@ header nav {
   width: 100%; /*Elle occupera 100% de sa largeur tout le temps. */
   background-size: cover;
   opacity: 0.9;
-  z-index: 30; 
+  z-index: 30;
 }
 header li {
   /**On précise header pour aller chercher la liste de la rubrique header et pas celle de la rubrique section**/
@@ -476,11 +475,11 @@ h3 {
 /**Pour mettre les 4 images en décalés (float)**/
 #illusion {
   float: right;
-  margin-right: -200px;
+  margin-right: -180px;
 }
 #stylo {
   float: right;
-  margin-right: -200px;
+  margin-right: -180px;
 }
 
 #eau {
@@ -492,19 +491,6 @@ h3 {
   float: left;
   margin-right: -200px;
 }
-
-/** mescroquis 
-url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-9/49033033_2158695907714237_5720229657484197888_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=l2rIlfAEIpcAX_DdS5_&_nc_ht=scontent-cdg2-1.xx&oh=31d5500e56000a6abd02e2cd9d06f0c3&oe=61BBCEFF"); **/
-/**VIDEO : "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FLa.voleuse.d.image%2Fvideos%2F1891689017748262%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden"**/
-
-/** illusions
-url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-9/160085384_2756906824559806_6313198550188637942_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=0debeb&_nc_ohc=uwrHCd0UJroAX9KO6zq&_nc_ht=scontent-cdg2-1.xx&oh=ad34e4a3aa153bef3f7fcb55f19bd5b8&oe=61B9E2BD"); **/
-
-/** eau
-url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.18169-9/11141335_1586557778261389_4025665009934744381_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=pAhu67QQZBwAX_scy8c&_nc_ht=scontent-cdg2-1.xx&oh=519b1d93526dc59efa183b93fa1424bf&oe=61BCC7C8") ; **/
-
-/**stylo img{
-url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-9/42832425_2105177729732722_7607516825118572544_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=o3UkLZX-KMUAX-8F6VZ&_nc_ht=scontent-cdg2-1.xx&oh=6daac0819779e851d392645d42b731e1&oe=61BB582B"); **/
 
 /******************************************************* FOOTER ***************************************************/
 
