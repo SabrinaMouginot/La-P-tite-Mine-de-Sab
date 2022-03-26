@@ -536,7 +536,7 @@ button {
   background-color: #f0c77a;
 }
 button:hover {
-  background-color: #771505;
+  background-color: rgb(75, 75, 240);
   color: #f0c77a;
   cursor: pointer;
   transition: 0.3s ease-in-out;
