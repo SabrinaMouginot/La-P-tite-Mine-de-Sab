@@ -460,8 +460,8 @@ h3 {
   box-shadow: 5px 5px 15px -1px rgba(10, 6, 36, 0.7);
   text-align: center;
   padding: 50px 5px;
-  height: 310px;
-  width: 600px;
+  height: 280px;
+  width: 400px;
   float: left;
   position: relative;
   z-index: 10; /**les p ont un z-index plus élevé, alors ils passeront devant les images**/
