@@ -561,3 +561,8 @@ button:hover {
   transform: scale(1.5);
   transition: 0.1s;
 }
+
+/******************************************************* RESPONSIVE ***************************************************/
+@media  all  and  (max-device-width:  480px) { 
+  /*  Vos  règles  CSS  pour  les  mobiles  ici  */ 
+}
