@@ -110,6 +110,7 @@ h3 {
   flex-wrap: wrap; /**quand on réduit, ça s'empile**/
   justify-content: space-between; /**ça les a espacé et ça a pris tout l'espace sur la largeur**/
   padding: 30px 10%;
+  background-color: #f0c77a;
 }
 /**appeler une classe : faire un point.**/
 
