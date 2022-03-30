@@ -92,6 +92,13 @@ function sendmail(
         return false;
     } else {
         echo 'Le message a été envoyé.';
+        echo '<div>
+                <a href="./La P\'tite Mine de Sab.html">
+                    <input class="Website styled"
+                        type="button"
+                        value="Retour vers le site">
+                </a>
+            </div>';
         return true;
     }
 }

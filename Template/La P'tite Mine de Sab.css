@@ -2,12 +2,38 @@
 /**j'ai sélectionné et importé les polices Oxygen, Margarine et Iceberg**/
 @import url("https://fonts.googleapis.com/css2?family=Iceberg&family=Margarine&family=Oxygen&display=swap");
 
+ *::before,
+::after {
+  box-sizing: border-box; /**on selectionne tout et on prend en compte margin et padding dans le calcul des longueurs.
+  margin: 0;
+  margin: 0;
+}
+.container {
+  display: flex;/*flex met tous les éléments à la suite des autres. ça devient des flex-items.
+  flex-wrap: wrap; /*ça va passer les uns en-dessous des autres*/
+  justify-content: center;
+  width: 80%;
+  /* max-width: 1300px; /* ça sera le max : quand je serai en grand écran* */
+  /**ça va osciller entre 80% de mon viexport et 1300px*/
+}
+.item{
+  width: 600px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden; /*pour cacher tout ce qui dépasse.*/
+  /* flex-shrink: 0; *//*pour que les photos ne puissent pas rétrécir*/
+}
+.item img{
+  width: 100%;
+  height: auto;
+} 
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Oxygen";
+  height: 100vh; /**le body de base à une largeur mais pas de hauteur. 100vh :La partie visible de notre navigateur/ la partie viewport.**/
   padding: 0;
   margin: 0; /**Pour retirer les marges au départ : margin et padding à 0**/
   /**La bibliothèque Google Fonts nous propose toutes les polices de Google.**/
@@ -563,6 +589,6 @@ button:hover {
 }
 
 /******************************************************* RESPONSIVE ***************************************************/
-@media  all  and  (max-device-width:  480px) { 
-  /*  Vos  règles  CSS  pour  les  mobiles  ici  */ 
+@media all and (max-device-width: 480px) {
+  /*  Vos  règles  CSS  pour  les  mobiles  ici  */
 }
