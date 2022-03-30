@@ -32,9 +32,9 @@ if (!validerFormulaire()) {
 function validerFormulaire()
 {
 
-    echo '<pre>';
-    var_dump($_POST);
-    echo '</pre>';
+    // echo '<pre>';
+    // var_dump($_POST);
+    // echo '</pre>';
 
     if (empty($_POST))
         return false;
@@ -52,13 +52,13 @@ function validerFormulaire()
     if (!$email)
         return false;
 
-    echo 'formulaire ok';
+    // echo 'formulaire ok';
 
     $email = trim($email);
     $nom = trim(filter_input(INPUT_POST, 'nom', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
     $message = trim(filter_input(INPUT_POST, 'message', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
 
-    echo 'sendmail';
+    // echo 'sendmail';
 
     sendmail($email, $nom, $message);
 
@@ -96,7 +96,7 @@ function sendmail(
     } else {
         echo ' <br>Le message a été envoyé.';
         echo '<div>
-                <a href="La P\'tite Mine de Sab.html">
+                <a href="/La-P-tite-Mine-de-Sab/La P\'tite Mine de Sab.html">
                     <input type="button" value="Retour vers le site">
                 </a>
             </div>';
