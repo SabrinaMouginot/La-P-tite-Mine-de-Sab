@@ -94,12 +94,12 @@ function sendmail(
         echo 'Erreur de Mailer : ' . $phpmailer->ErrorInfo;
         return false;
     } else {
-        echo ' <br>Le message a été envoyé.';
         echo '<div>
                 <a href="/La-P-tite-Mine-de-Sab/La P\'tite Mine de Sab.html">
                     <input type="button" value="Retour vers le site">
                 </a>
             </div>';
+        echo 'Le message a été envoyé.';
         return true;
     }
 }
