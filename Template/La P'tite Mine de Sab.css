@@ -18,8 +18,8 @@
 }
 .item{
   width: 600px;
-  height: 200px;
-  margin: 10px;
+  height: 600px;
+  /* margin: 10px; */
   overflow: hidden; /*pour cacher tout ce qui dépasse.*/
   /* flex-shrink: 0; *//*pour que les photos ne puissent pas rétrécir*/
 }
@@ -135,7 +135,7 @@ h3 {
   display: flex; /**pour aligner les images les unes aux autres**/
   flex-wrap: wrap; /**quand on réduit, ça s'empile**/
   justify-content: space-between; /**ça les a espacé et ça a pris tout l'espace sur la largeur**/
-  padding: 30px 10%;
+  padding: 10px 10%;
   background-color: #f0c77a;
 }
 /**appeler une classe : faire un point.**/
@@ -146,7 +146,7 @@ h3 {
   margin: 15px;
   font-weight: 300;
   text-align: center;
-  margin: 55px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles1 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -171,7 +171,7 @@ h3 {
 .imagesrepresentationsvisuelles2 h4 {
   font-family: "Oxygen", cursive;
   font-size: 1.8em;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
   font-weight: 300;
 }
 .imagesrepresentationsvisuelles2 img {
@@ -197,7 +197,7 @@ h3 {
   font-family: "Oxygen", cursive;
   font-size: 1.8em;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles3 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -222,7 +222,7 @@ h3 {
   font-family: "Oxygen", cursive;
   font-size: 1.8em;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles4 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -248,7 +248,7 @@ h3 {
   font-size: 1.8em;
   margin: 15px;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 
 .imagesrepresentationsvisuelles5 img {
@@ -275,7 +275,7 @@ h3 {
   font-size: 1.8em;
   margin: 15px;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles6 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -301,7 +301,7 @@ h3 {
   font-size: 1.8em;
   margin: 15px;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles7 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -327,7 +327,7 @@ h3 {
   font-size: 1.8em;
   margin: 15px;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles8 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -353,7 +353,7 @@ h3 {
   font-size: 1.8em;
   margin: 15px;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles9 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -379,7 +379,7 @@ h3 {
   font-size: 1.8em;
   margin: 15px;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles10 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -405,7 +405,7 @@ h3 {
   font-size: 1.8em;
   margin: 15px;
   font-weight: 300;
-  margin: 15px 15px 15px 150px;
+  margin: 10px 15px 15px 150px;
 }
 .imagesrepresentationsvisuelles11 img {
   /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
@@ -423,32 +423,6 @@ h3 {
   /**hover , c'est mettre une opacité quand la souris survole l'image**/
   opacity: 0.5;
   transform: scale(1.05);
-  transition: 0.6s ease-in-out;
-}
-
-.imagesrepresentationsvisuelles h4 {
-  font-family: "Oxygen", cursive;
-  font-size: 1.8em;
-  margin: 15px;
-  font-weight: 300;
-}
-
-.imagesrepresentationsvisuelles img {
-  /**On peut utiliser le générateur, le même que pour text-shadox (text-shadow generator)**/
-  border-radius: 30px;
-  box-shadow: 5px 5px 15px 5px rgba(10, 6, 36, 0.7);
-  text-align: center;
-  padding: 16px 18px;
-  height: 300px;
-  width: 35%;
-  background-color: blanchedalmond;
-  border-color: blue;
-  margin: 25px;
-}
-.imagesrepresentationsvisuelles img:hover {
-  /**hover , c'est mettre une opacité quand la souris survole l'image**/
-  opacity: 0.5;
-  transform: scale(1.05);
   transition: 0.6s ease-in-out; /**transition modier la valeur d'une propriété CSS dans le temps**/
   /**Ease-in-out : la transition commence et se nit lentement**/
 }
@@ -457,14 +431,14 @@ h3 {
 #videos {
   height: 1400px;
   background-color: #fffbef;
-  padding: 300px 400px;
+  padding: 300px 200px;
   text-align: center;
   margin-top: 5px;
   /* margin: 15px -150px; */
 }
 #videos h2 {
   padding: 5px;
-  margin-top: -200px;
+  margin-top: -280px;
 }
 #videos p {
   height: 60px;
@@ -499,13 +473,14 @@ h3 {
   /**Ease-in-out : la transition commence et se fini lentement**/
 }
 /**Pour mettre les 4 images en décalés (float)**/
+#croquis {
+  float: left;
+  margin-right: -200px;
+}
+
 #illusion {
   float: right;
-  margin-right: -180px;
-}
-#stylo {
-  float: right;
-  margin-right: -180px;
+  margin-right: -190px;
 }
 
 #eau {
@@ -513,9 +488,9 @@ h3 {
   margin-right: -200px;
 }
 
-#croquis {
-  float: left;
-  margin-right: -200px;
+#stylo {
+  float: right;
+  margin-right: -190px;
 }
 
 /******************************************************* FOOTER ***************************************************/

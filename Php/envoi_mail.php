@@ -69,7 +69,7 @@ function sendmail(
     string $userEmail,
     string $userName,
     string $message = "message",
-    string $subject = '[LA P\'tite Mine De Sab]'
+    string $subject = '[La P\'tite Mine de Sab]'
 ) {
 
     global $phpmailer;
@@ -93,10 +93,8 @@ function sendmail(
     } else {
         echo 'Le message a été envoyé.';
         echo '<div>
-                <a href="./La P\'tite Mine de Sab.html">
-                    <input class="Website styled"
-                        type="button"
-                        value="Retour vers le site">
+                <a href="La-P-tite-Mine-de-Sab/La%20P\'tite%20Mine%20de%20Sab.html">
+                    <input type="button" value="Retour vers le site">
                 </a>
             </div>';
         return true;
