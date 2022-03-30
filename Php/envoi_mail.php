@@ -10,7 +10,7 @@ $dotenv->usePutenv();
 $dotenv->loadEnv(__DIR__ . '\.env');
 
 $phpmailer = new PHPMailer();
-$phpmailer->SMTPDebug = 2;
+$phpmailer->SMTPDebug = 0;
 $phpmailer->isSMTP();
 $phpmailer->Host = getenv('MAIL_HOST') ?? 'localhost';
 $phpmailer->SMTPAuth = true;
@@ -87,7 +87,7 @@ function sendmail(
     $phpmailer->msgHTML('<p>' . $userEmail . ' ' . $userName . '<br></p>' . '<p>' . $message . '</p>');
     $phpmailer->Body = $userEmail . ' ' . $userName  . '   <br>   ' . $message;
 
-    $phpmailer->SMTPDebug = 0;
+
     
 
     if (!$phpmailer->send()) {
