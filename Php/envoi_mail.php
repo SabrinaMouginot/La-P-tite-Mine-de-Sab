@@ -87,13 +87,16 @@ function sendmail(
     $phpmailer->msgHTML('<p>' . $userEmail . ' ' . $userName . '<br></p>' . '<p>' . $message . '</p>');
     $phpmailer->Body = $userEmail . ' ' . $userName  . '   <br>   ' . $message;
 
+    $phpmailer->SMTPDebug = 0;
+    
+
     if (!$phpmailer->send()) {
         echo 'Erreur de Mailer : ' . $phpmailer->ErrorInfo;
         return false;
     } else {
-        echo 'Le message a été envoyé.';
+        echo ' <br>Le message a été envoyé.';
         echo '<div>
-                <a href="La-P-tite-Mine-de-Sab/La%20P\'tite%20Mine%20de%20Sab.html">
+                <a href="La P\'tite Mine de Sab.html">
                     <input type="button" value="Retour vers le site">
                 </a>
             </div>';
