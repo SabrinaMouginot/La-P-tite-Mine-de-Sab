@@ -1,0 +1,70 @@
+<div class="container2">
+      <!-- Les images et leur nombre -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="Assets/Dessin industriel/industrie1.png" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="Assets/Dessin industriel/industrie2.png" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="Assets/Dessin industriel/industrie3.png" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="Assets/Dessin industriel/industrie4.png" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="Assets/Dessin industriel/industrie5.png" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="Assets/Dessin industriel/industrie6.png" />
+      </div>
+
+      <!-- Les boutons avant et après -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+      <!--JavaScript-->
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Controle "précédent"/"suivant"
+        function plusSlides(n) {
+          showSlides((slideIndex += n));
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+      </script>
+    </div>
