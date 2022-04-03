@@ -1,33 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>La P'tite Mine de Sab</title>   
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  
 <div class="container2">
       <!-- Les images et leur nombre -->
       <div class="mySlides">
         <div class="numbertext">1 / 6</div>
-        <img src="Assets/Dessin industriel/industrie1.png" />
+        <img src="Assets/Caroussels/dessin industriel/industrie.png" alt="mannequin" />
       </div>
 
       <div class="mySlides">
         <div class="numbertext">2 / 6</div>
-        <img src="Assets/Dessin industriel/industrie2.png" />
+        <img src="Assets/Caroussels/dessin industriel/industrie2.png" alt="mannequin"/>
       </div>
 
       <div class="mySlides">
         <div class="numbertext">3 / 6</div>
-        <img src="Assets/Dessin industriel/industrie3.png" />
+        <img src="Assets/Caroussels/dessin industriel/industrie3.png" alt="mannequin"/>
       </div>
 
       <div class="mySlides">
         <div class="numbertext">4 / 6</div>
-        <img src="Assets/Dessin industriel/industrie4.png" />
+        <img src="Assets/Caroussels/dessin industriel/industrie4.png" alt="mannequin"/>
       </div>
 
       <div class="mySlides">
         <div class="numbertext">5 / 6</div>
-        <img src="Assets/Dessin industriel/industrie5.png" />
+        <img src="Assets/Caroussels/dessin industriel/industrie5.png" alt="mannequin"/>
       </div>
 
       <div class="mySlides">
         <div class="numbertext">6 / 6</div>
-        <img src="Assets/Dessin industriel/industrie6.png" />
+        <img src="Assets/Caroussels/dessin industriel/industrie6.png" alt="mannequin"/>
       </div>
 
       <!-- Les boutons avant et après -->
@@ -63,8 +74,10 @@
             dots[i].className = dots[i].className.replace(" active", "");
           }
           slides[slideIndex - 1].style.display = "block";
-          dots[slideIndex - 1].className += " active";
+          dots[slideIndex - 1].className += "active";
           captionText.innerHTML = dots[slideIndex - 1].alt;
         }
       </script>
     </div>
+
+    </body>
