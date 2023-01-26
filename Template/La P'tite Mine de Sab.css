@@ -2,7 +2,7 @@
 /**j'ai sélectionné et importé les polices Oxygen, Margarine et Iceberg**/
 @import url("https://fonts.googleapis.com/css2?family=Iceberg&family=Margarine&family=Oxygen&display=swap");
 
- *::before,
+*::before,
 ::after {
   box-sizing: border-box; /**on selectionne tout et on prend en compte margin et padding dans le calcul des longueurs.
   margin: 0;
@@ -16,17 +16,17 @@
   /* max-width: 1300px; /* ça sera le max : quand je serai en grand écran* */
   /**ça va osciller entre 80% de mon viexport et 1300px*/
 }
-.item{
+.item {
   width: 600px;
   height: 600px;
   /* margin: 10px; */
   overflow: hidden; /*pour cacher tout ce qui dépasse.*/
-  /* flex-shrink: 0; *//*pour que les photos ne puissent pas rétrécir*/
+  /* flex-shrink: 0; */ /*pour que les photos ne puissent pas rétrécir*/
 }
-.item img{
+.item img {
   width: 100%;
   height: auto;
-} 
+}
 html {
   scroll-behavior: smooth;
 }
